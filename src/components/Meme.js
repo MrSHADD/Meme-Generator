@@ -24,7 +24,7 @@ export default function Meme(){
                 placeholder="Bottom text"
                 className="form--input"
             />
-            <button className="form--btn">Get a new meme image 🖼</button>
+            <button className="form--btn" onClick={getMeme}>Get a new meme image 🖼</button>
            </form>
            <img src={memeImage} className="meme--img" />
         </main>
